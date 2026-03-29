@@ -1,16 +1,40 @@
-## Hi there 👋
+# Evan Yuan
 
-<!--
-**Evanyuan-builder/evanyuan-builder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Builder of AI systems, agent infrastructure, product experiments, and long-term ventures.
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build systems around agents, memory, orchestration, workflow, and product execution.
+
+My current direction focuses on:
+
+- agent-based systems
+- project factory infrastructure
+- productized AI workflows
+- memory and execution layers
+- long-term venture building
+
+## Current Focus
+
+- **Factory** — project hosting and execution system
+- **Memory Core** — unified memory infrastructure for systems and agents
+- **EvanCore** — execution kernel and orchestration substrate
+- **RoleForge** — role asset engine for digital workers
+- **运筹唯握** — immersive AI analysis desktop for complex problems
+
+## What I Care About
+
+- turning ideas into real systems
+- building durable execution infrastructure
+- making AI useful in long-term work
+- designing products with clear strategic direction
+
+## Philosophy
+
+Build real things.  
+Ship working systems.  
+Accumulate leverage over time.
+
+## Contact
+
+- GitHub: [@evanyuan-builder](https://github.com/evanyuan-builder)
