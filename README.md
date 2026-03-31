@@ -1,6 +1,6 @@
 # Evan Yuan
 
-Building systems early, with a long-term view on memory, execution, and leverage.
+I build systems for thinking, memory, execution, and long-term leverage.
 
 ## Who I Am
 
