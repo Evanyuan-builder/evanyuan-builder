@@ -1,39 +1,49 @@
 # Evan Yuan
 
-I build systems for thinking, memory, execution, and long-term leverage.
+Building systems early, with a long-term view on memory, execution, and leverage.
 
 ## Who I Am
 
-I am a young builder working on AI systems, digital infrastructure, and durable ways of turning ideas into reality.
+I am a young builder working on AI systems and digital infrastructure.
 
-What makes me unusual is not just age, but direction.
+What gives me an edge is not age itself, but how early I started thinking in systems.
 
-While many people my age are still exploring what to do, I am already focused on how systems are designed, how intelligence is organized, and how long-term advantage is built.
+While many people my age are still deciding what to pursue, I am already focused on how intelligence is organized, how software moves beyond response into execution, and how digital systems compound into long-term advantage.
 
-## What I Care About
+## What I Work On
 
-- building systems instead of chasing noise
-- creating leverage instead of staying busy
-- turning complexity into structure
-- thinking in years, not just in days
-- designing things that keep becoming more useful over time
+I care about the layer beneath products:
+
+- how systems remember
+- how agents coordinate
+- how workflows turn thought into action
+- how software supports real decisions
+- how digital infrastructure becomes leverage over time
+
+## What I Value
+
+- clarity over noise
+- systems over hacks
+- leverage over busyness
+- durability over short-term excitement
+- long-term compounding over temporary attention
 
 ## How I Think
 
-I am interested in the deeper layer behind products and tools:
+I am interested in building things that do more than look impressive.
 
-- how memory should work in intelligent systems
-- how agents should coordinate and execute
-- how software can support real decisions and real work
-- how digital systems can compound into long-term advantage
+I want systems that can carry context, coordinate work, reduce friction, and remain useful as complexity grows.
+
+To me, the real opportunity in software is not only to make tools smarter, but to make work more structured, memory-aware, and durable.
 
 ## Philosophy
 
-Age is not my headline.  
-Clarity, direction, and execution are.
+Being young is not the advantage by itself.
 
-I believe the real edge is to see important things early, build seriously, and stay with them long enough for compounding to happen.
+Seeing earlier, thinking deeper, and building sooner is.
+
+I believe meaningful advantage comes from recognizing important shifts early, designing around them seriously, and staying long enough for compounding to do its work.
 
 ## Presence
 
-This GitHub is my public workshop — a place where I design, test, and publish systems that reflect how I think about the future.
+This GitHub is my public workshop — a place where I publish the way I think, build, and design for the future.
