@@ -1,40 +1,39 @@
 # Evan Yuan
 
-Builder of AI systems, agent infrastructure, product experiments, and long-term ventures.
+I build systems for thinking, memory, execution, and long-term leverage.
 
-## About Me
+## Who I Am
 
-I build systems around agents, memory, orchestration, workflow, and product execution.
+I am a young builder working on AI systems, digital infrastructure, and durable ways of turning ideas into reality.
 
-My current direction focuses on:
+What makes me unusual is not just age, but direction.
 
-- agent-based systems
-- project factory infrastructure
-- productized AI workflows
-- memory and execution layers
-- long-term venture building
-
-## Current Focus
-
-- **Factory** — project hosting and execution system
-- **Memory Core** — unified memory infrastructure for systems and agents
-- **EvanCore** — execution kernel and orchestration substrate
-- **RoleForge** — role asset engine for digital workers
-- **运筹唯握** — immersive AI analysis desktop for complex problems
+While many people my age are still exploring what to do, I am already focused on how systems are designed, how intelligence is organized, and how long-term advantage is built.
 
 ## What I Care About
 
-- turning ideas into real systems
-- building durable execution infrastructure
-- making AI useful in long-term work
-- designing products with clear strategic direction
+- building systems instead of chasing noise
+- creating leverage instead of staying busy
+- turning complexity into structure
+- thinking in years, not just in days
+- designing things that keep becoming more useful over time
+
+## How I Think
+
+I am interested in the deeper layer behind products and tools:
+
+- how memory should work in intelligent systems
+- how agents should coordinate and execute
+- how software can support real decisions and real work
+- how digital systems can compound into long-term advantage
 
 ## Philosophy
 
-Build real things.  
-Ship working systems.  
-Accumulate leverage over time.
+Age is not my headline.  
+Clarity, direction, and execution are.
 
-## Contact
+I believe the real edge is to see important things early, build seriously, and stay with them long enough for compounding to happen.
 
-- GitHub: [@evanyuan-builder](https://github.com/evanyuan-builder)
+## Presence
+
+This GitHub is my public workshop — a place where I design, test, and publish systems that reflect how I think about the future.
