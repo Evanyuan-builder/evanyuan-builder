@@ -38,6 +38,14 @@ Meaningful advantage comes from recognizing important shifts early, designing ar
 
 ---
 
+### 🔬 Currently Open
+
+I keep my engines closed and my evidence open. What ships publicly is the **verification layer** — so anyone can reproduce the numbers without trusting anyone's marketing.
+
+- **[`memory-core-eval`](https://github.com/Evanyuan-builder/memory-core-eval)** &nbsp;·&nbsp; Reproducible evaluation harness for agent memory systems. Pluggable adapter protocol, LongMemEval runner, baselines, and auditable traces. Apache-2.0.
+
+---
+
 <div align="center">
 
 ### 📊 Workshop Signals
