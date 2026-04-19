@@ -1,49 +1,60 @@
-# Evan Yuan
+<div align="center">
 
-I build systems for thinking, memory, execution, and long-term leverage.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Evan%20Yuan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Building%20systems%20for%20thinking,%20memory%20&%20long-term%20leverage&descAlignY=60&descSize=14" width="100%"/>
 
-## Who I Am
+<a href="https://github.com/Evanyuan-builder">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=800&color=6C7B95&center=true&vCenter=true&width=620&lines=clarity+over+noise;systems+over+hacks;leverage+over+busyness;durability+over+short-term+excitement" />
+</a>
 
-I am a young builder working on AI systems and digital infrastructure.
+</div>
 
-What gives me an edge is not age itself, but how early I started thinking in systems.
+---
 
+### 🧭 Who I Am
+
+I am a young builder working on **AI systems** and **digital infrastructure**.
+
+What gives me an edge is not age itself — but how early I started thinking in systems.
 While many people my age are still deciding what to pursue, I am already focused on how intelligence is organized, how software moves beyond response into execution, and how digital systems compound into long-term advantage.
 
-## What I Work On
+### 🛠 What I Work On
 
-I care about the layer beneath products:
+I care about the layer **beneath** products:
 
-- how systems remember
-- how agents coordinate
-- how workflows turn thought into action
-- how software supports real decisions
-- how digital infrastructure becomes leverage over time
+> how systems **remember** · how agents **coordinate** · how workflows turn **thought into action** · how software supports **real decisions** · how digital infrastructure becomes **leverage over time**
 
-## What I Value
-
-- clarity over noise
-- systems over hacks
-- leverage over busyness
-- durability over short-term excitement
-- long-term compounding over temporary attention
-
-## How I Think
-
-I am interested in building things that do more than look impressive.
+### 💡 How I Think
 
 I want systems that can carry context, coordinate work, reduce friction, and remain useful as complexity grows.
 
-To me, the real opportunity in software is not only to make tools smarter, but to make work more structured, memory-aware, and durable.
+To me, the real opportunity in software is not only to make tools smarter — but to make work more **structured**, **memory-aware**, and **durable**.
 
-## Philosophy
+### 🌱 Philosophy
 
-Being young is not the advantage by itself.
+> Being young is not the advantage by itself.
+> **Seeing earlier, thinking deeper, and building sooner** is.
 
-Seeing earlier, thinking deeper, and building sooner is.
+Meaningful advantage comes from recognizing important shifts early, designing around them seriously, and staying long enough for compounding to do its work.
 
-I believe meaningful advantage comes from recognizing important shifts early, designing around them seriously, and staying long enough for compounding to do its work.
+---
 
-## Presence
+<div align="center">
 
-This GitHub is my public workshop — a place where I publish the way I think, build, and design for the future.
+### 📊 Workshop Signals
+
+<img src="https://github-readme-stats.vercel.app/api?username=Evanyuan-builder&show_icons=true&theme=transparent&hide_border=true&title_color=6C7B95&icon_color=6C7B95&text_color=8B95A8" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Evanyuan-builder&layout=compact&theme=transparent&hide_border=true&title_color=6C7B95&text_color=8B95A8" height="160"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Evanyuan-builder&theme=transparent&hide_border=true&ring=6C7B95&fire=6C7B95&currStreakLabel=8B95A8" height="160"/>
+
+</div>
+
+---
+
+<div align="center">
+
+*This GitHub is my public workshop — a place where I publish the way I think, build, and design for the future.*
+
+</div>
