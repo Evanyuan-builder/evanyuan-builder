@@ -64,6 +64,26 @@ The verification is public; the engine isn't. Request access if you want to inte
 
 ---
 
+#### 📦 [`evancore`](https://github.com/Evanyuan-builder/evancore) &nbsp;·&nbsp; <sub>public design · closed core · Apache-2.0</sub>
+
+**Terraform for AI agents.** CLI-first Harness Engineering — the delivery layer *between* agent frameworks (runtime) and hosting (execution). Content-addressed artifacts (blake2b-64), Ed25519 signing with per-host `trust.yaml` + revocation v2, reversible lifecycle (`assemble / release / rollback / upgrade / promote / publish / pull / verify`). MCP is one Tool backend, not the product.
+
+- **607 unit tests** · v1 A–G + v2 open-foundation four-line runtime + B3 signing A/A.1/B/B.1/B.2 + MCP Phase 2 (persistent session, reconnect-once, per-call escape hatch)
+- **Evaluation log published** — 11 ecosystem candidates evaluated, 2 accepted as references, 9 declined on fit. The defensibility of scope is itself public evidence.
+- Spec schema · philosophy · examples · interactive lifecycle demo in repo
+
+```bash
+# after private-beta access:
+evan release app.yaml --sign alice@acme
+#  📦 SPEC_RELEASED  h-abc123f7d9e2
+#  ✍  SPEC_SIGNED    alice@acme
+#  🚀 HARNESS_DEPLOYED app (av)
+```
+
+The design is public, the engine isn't. [Live demo →](https://evanyuan-builder.github.io/evancore/)  ·  [Philosophy →](https://github.com/Evanyuan-builder/evancore/blob/main/docs/philosophy.md)  ·  [Evaluation log →](https://github.com/Evanyuan-builder/evancore/blob/main/docs/evaluations.md)
+
+---
+
 #### 🧭 Yunzhou (运筹唯握) &nbsp;·&nbsp; <sub>cognitive workbench · private beta</sub>
 
 A thinking environment that offers a different cognitive interface at each stage of a complex problem — not a canvas, not a whiteboard, not a note app. Five stages, one object model:
