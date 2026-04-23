@@ -84,6 +84,25 @@ The design is public, the engine isn't. [Live demo →](https://evanyuan-builder
 
 ---
 
+#### 📇 [`rolecore`](https://github.com/Evanyuan-builder/rolecore) &nbsp;·&nbsp; <sub>public showcase · closed core · Apache-2.0</sub>
+
+**Role assets for LLM agents.** Treat an "agent role" the way you'd treat a production asset — a version, a lifecycle, a signed checksum, a gate before it goes live. Not a prompt string; an asset.
+
+- **Five-level lifecycle** — `raw_imported → normalized → curated → official → archived`, forward-only state machine
+- **Two gates** — 10-item structural (`official`) + 5-dimension LLM review (`curated`, Anthropic or local Ollama)
+- **Three-axis fusion search** — job × tech × specialty, ranked per-axis with a triad recommendation
+- **105 reference roles** shipped across 26 groups, all double-gated · **39 pytest**, all green
+
+```bash
+rolecore find "python backend testing"
+rolecore assemble --id engineering.backend_architect \
+    --task "design an order service" --goal "support 10k QPS"
+```
+
+The core is public; the upstream integration (four third-party agent repos, 493-role full dataset, drift monitor, batch reviewer, operations playbook) stays private. [Release v0.1.0 →](https://github.com/Evanyuan-builder/rolecore/releases/tag/v0.1.0)  ·  [Concepts →](https://github.com/Evanyuan-builder/rolecore/blob/main/docs/concepts.md)  ·  [CLI reference →](https://github.com/Evanyuan-builder/rolecore/blob/main/docs/cli.md)
+
+---
+
 #### 🧭 Yunzhou (运筹唯握) &nbsp;·&nbsp; <sub>cognitive workbench · private beta</sub>
 
 A thinking environment that offers a different cognitive interface at each stage of a complex problem — not a canvas, not a whiteboard, not a note app. Five stages, one object model:
