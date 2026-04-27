@@ -19,7 +19,7 @@
 
 ### 🧭 How I Build
 
-I ship verification before I ship product. I wrote the eval harness **before** trusting my own system's numbers — and when I ran them honestly, I found a 20-point gap vs. state-of-the-art open baselines. That gap is my current roadmap, not my marketing.
+I ship verification before I ship product. I wrote the eval harness **before** trusting my own system's numbers — and the first honest run showed a 20-point gap vs. state-of-the-art open baselines. The gap was the roadmap, not the marketing. n=500 sweeps closed it; the harness still ships first.
 
 **Three-layer strategy:** open verification · semi-open interface · closed core.
 The engine stays private. The scorecard is public. Anyone can reproduce the numbers in one command.
@@ -38,10 +38,10 @@ Reproducible evaluation harness for agent memory systems. Pluggable `MemoryAdapt
 |---|---:|---:|---:|
 | BM25 | 84.7% | 93.2% | 96.2% |
 | Dense MiniLM | 86.8% | 94.7% | 97.2% |
-| **BM25 + Dense RRF** | **89.8%** | **96.0%** | **97.9%** |
-| Memory Core (n=30 stratified) | 59.3% | 77.8% | 77.8% |
+| BM25 + Dense RRF | 89.8% | 96.0% | 97.9% |
+| **Memory Core** | **94.5%** | **98.3%** | **99.4%** |
 
-Yes, my own system is 20 points behind `hybrid-rrf` on the hard split. [Full report →](https://github.com/Evanyuan-builder/memory-core-eval/blob/main/reports/baselines_longmemeval_s.md)
+Memory Core leads `hybrid-rrf` on every column at n=500. [Baselines →](https://github.com/Evanyuan-builder/memory-core-eval/tree/main/baselines)  ·  [Full report →](https://github.com/Evanyuan-builder/memory-core-eval/blob/main/reports/baselines_longmemeval_s.md)
 
 ```bash
 pip install 'memory-core-eval[dense]'
@@ -52,13 +52,16 @@ mceval run --adapter hybrid-rrf --split s
 
 #### 🧠 Memory Core &nbsp;·&nbsp; <sub>closed core · private</sub>
 
-Unified memory infrastructure for AI agents, teams, and digital organizations. Hybrid BM25+dense retrieval with RRF fusion, autonomous consolidation ("autoDream"), Compiled-Truth / Timeline dual-zone entity pages, MCP server integration.
+**Deterministic temporal memory for agent teams.** LanceDB-primary retrieval (split-leg BM25 + dense, external RRF), bi-temporal supersession, autoDream consolidation, role-scoped queries (`agent` / `cross-role` / `organizational`), MCP server integration.
 
-- **LongMemEval-oracle** 99.8% R@10 (ties with all classical baselines — oracle under-discriminates)
-- **LongMemEval-S** 77.8% R@10 (n=30 stratified) — **trailing** `hybrid-rrf` by 20 points, see `memory-core-eval`
-- **176 unit tests** · REST (FastAPI) · Python/TS SDK · MCP server
+n=500 head-to-head, same harness, same seeds:
 
-**Roadmap to close the 20-point gap:** session-level diversity reranking · temporal range filters for "N days ago" queries · dedicated preference-fact extraction path.
+- **LongMemEval-S** &nbsp;·&nbsp; R@1 **94.5%** / R@5 **98.3%** / R@10 **99.4%** &nbsp;·&nbsp; +1.5pt R@10 vs `hybrid-rrf` paper
+- **LoCoMo** &nbsp;·&nbsp; R@1 **58.4%** / R@5 **81.8%** / R@10 **88.8%** &nbsp;·&nbsp; +3.8pt R@10 vs `hybrid-rrf` n=100 anchor
+- **348 unit tests** · **CI 7/7 green** including a determinism job (zero question flips across server restarts at the same code revision)
+- REST (FastAPI) · Python/TS SDK · MCP server · v0.3.0 released
+
+**Three orthogonal axes** — deterministic retrieval (SQL push-down + explicit tie-breakers) · bi-temporal memory (supersession + windowed RRF on event-time) · role-scoped queries (first-class `agent` / `cross-role` / `organizational`).
 
 The verification is public; the engine isn't. Request access if you want to integrate.
 
